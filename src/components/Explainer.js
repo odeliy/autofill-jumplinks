@@ -34,13 +34,15 @@ function Explainer() {
 			</p>
 			<h2>{`<h3> section:`}</h2>
 			<p>
-				{`Paste all the contents that contains the <h3> tags. You must start with the <h3> tag. Nothing before it.`}
+				{`Paste the whole section you want to replace. It must contain all the <h3> headers.`}
 			</p>
 			<p>
 				{`
 				After hitting submit the <h3>s should now look like <h3 id="ENDPOINT"> with no other changes to the original text.
 				`}
 			</p>
+			<h2>Demo:</h2>
+			<p>Click on the "Jumplink Generator" header above to autofill the generator with dummy data.</p>
 		</StyledExplainer>
 	)
 }
