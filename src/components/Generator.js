@@ -5,13 +5,13 @@ import styled from 'styled-components'
 const StyledJumplinkGenerator = styled.div`
 	border-radius: 20px;
 	background-color: #1f2937;
-	padding: 1em 2em;
+	padding: 2em;
 
 	h1 {
+		padding-bottom: 0.25em;
         font-size: 3em;
 		color: #4adf86;
         text-align: center;
-        padding-block: 1em;
 	}
 
 	h2 {
@@ -23,7 +23,7 @@ const StyledJumplinkGenerator = styled.div`
 		resize: none;
 		overflow: auto;
 		width: 100%;
-		min-height: 200px;
+		min-height: 150px;
 		padding: 0.5em 1em;
 		margin-bottom: 2em;
 		background-color: #273549;
@@ -33,7 +33,7 @@ const StyledJumplinkGenerator = styled.div`
 	button {
 		text-transform: uppercase;
 		padding: 0.25em 1em;
-		margin: 1em 0 2.5em;
+		margin: 1em 0;
 		border: none;
 		border-radius: 20px;
 		background-color: #10b981;

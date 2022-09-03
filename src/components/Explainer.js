@@ -2,22 +2,19 @@ import styled from 'styled-components'
 
 const StyledExplainer = styled.div`
 	border-radius: 20px;
-	padding: 1em 2em;
+	padding: 2em;
 	background-color: #1f2937;
 	margin-top: 80px;
 
 	h1 {
 		font-size: 3em;
 		color: #4adf86;
-		padding-top: 1em;
-		padding-bottom: 0.5em;
 	}
 
 	h2 {
 		font-size: 1.5rem;
 		text-decoration: underline;
-		padding-top: 1em;
-		padding-bottom: 0.5em;
+		padding-block: 0.5em;
 	}
 
 	p {
