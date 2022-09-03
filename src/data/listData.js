@@ -1,13 +1,9 @@
-const listData = `<li><a href="https://www.bankrate.com/banking/cds/best-1-year-credit-union-cd-rates/#bethpage">Bethpage Federal Credit Union</a>: 2.50% APY, $50 minimum deposit</li>
-<li><a href="https://www.bankrate.com/banking/cds/best-1-year-credit-union-cd-rates/#alliant">Alliant Credit Union</a>: 2.50% APY, $1,000 minimum deposit</li>
-<li><a href="https://www.bankrate.com/banking/cds/best-1-year-credit-union-cd-rates/#navy">Navy Federal Credit Union</a>: 2.30% APY, $1,000 minimum deposit</li>
-<li><a href="https://www.bankrate.com/banking/cds/best-1-year-credit-union-cd-rates/#pentagon">Pentagon Federal Credit Union</a>: 2.30% APY, $1,000 minimum deposit</li>
-<li><a href="https://www.bankrate.com/banking/cds/best-1-year-credit-union-cd-rates/#randolph">Randolph-Brooks Federal Credit Union</a>: 2.22% APY, $1,000 minimum deposit</li>
-<li><a href="https://www.bankrate.com/banking/cds/best-1-year-credit-union-cd-rates/#security">Security Service Federal Credit Union</a>: 1.70% APY, $25,000 minimum deposit</li>
-<li><a href="https://www.bankrate.com/banking/cds/best-1-year-credit-union-cd-rates/#schools">SchoolsFirst Federal Credit Union</a>: 1.50% APY, $20,000 minimum deposit</li>
-<li><a href="https://www.bankrate.com/banking/cds/best-1-year-credit-union-cd-rates/#america">America First Credit Union</a>: 1.35% APY; $500 minimum deposit</li>
-<li><a href="https://www.bankrate.com/banking/cds/best-1-year-credit-union-cd-rates/#first">First Technology Federal Credit Union</a>: 1.30% APY; $500 minimum deposit</li>
-<li><a href="https://www.bankrate.com/banking/cds/best-1-year-credit-union-cd-rates/#vystar">VyStar Credit Union</a>: 1.25% APY; $500 minimum deposit</li>
-`
+const listData = `<li><a href="https://www.bankrate.com/banking/mma/jumbo-money-market-accounts/#discover">Discover Bank</a>: 1.75% APY; $100,000 minimum deposit for APY</li>
+<li><a href="https://www.bankrate.com/banking/mma/jumbo-money-market-accounts/#navy-federal">Navy Federal Credit Union</a>: 1.25% APY; $1,000,000 minimum deposit for APY</li>
+<li><a href="https://www.bankrate.com/banking/mma/jumbo-money-market-accounts/#customers">Customers Bank</a>: 0.75% APY; $250,001 minimum deposit for APY</li>
+<li><a href="https://www.bankrate.com/banking/mma/jumbo-money-market-accounts/#golden">Golden 1 Credit Union</a>: 0.70% APY; $250,000 minimum deposit for APY</li>
+<li><a href="https://www.bankrate.com/banking/mma/jumbo-money-market-accounts/#suncoast">Suncoast Credit Union</a>: 0.60% APY; $250,000 minimum deposit for APY</li>
+<li><a href="https://www.bankrate.com/banking/mma/jumbo-money-market-accounts/#schoolsfirst">SchoolsFirst Federal Credit Union</a>: 0.55% APY; $100,000 minimum deposit for APY</li>
+<li><a href="https://www.bankrate.com/banking/mma/jumbo-money-market-accounts/#delta">Delta Community Credit Union</a>: 0.52% APY; $100,000 minimum deposit for APY</li>`
 
 export default listData
