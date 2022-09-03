@@ -12,10 +12,6 @@ const StyledApp = styled.div`
 
 function App() {
 
-	function setupDemo() {
-		
-	}
-
 	return (
 		<StyledApp>
 			<Generator />
