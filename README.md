@@ -32,6 +32,3 @@ $ npm install
 # Start development server
 $ npm start
 ```
-## Collaboration
-
-Want to improve on this? Could use an auto copy to clipboard function, better styling, or anything you think of. I don't know what I'm doing, just pretending to. Fork this and send a pull request, I'd be overjoyed.
