@@ -2,6 +2,9 @@ import React, { useState } from 'react'
 import { extractEndpoints } from '../helpers'
 import styled from 'styled-components'
 
+import listData from '../data/listData'
+import h3Data from '../data/h3Data'
+
 const StyledJumplinkGenerator = styled.div`
 	border-radius: 20px;
 	background-color: #1f2937;
@@ -12,6 +15,10 @@ const StyledJumplinkGenerator = styled.div`
         font-size: 3em;
 		color: #4adf86;
         text-align: center;
+	}
+
+	h1:hover {
+		text-decoration: underline;
 	}
 
 	h2 {
@@ -77,10 +84,15 @@ function Generator() {
 		setResult('')
 	}
 
+	function setupDemo() {
+		setAnchors(listData)
+		setHeaders(h3Data)
+	}
+
 	return (
 		<StyledJumplinkGenerator>
-			<h1>
-				Jumplink <span>Generator</span>
+			<h1 onClick={setupDemo}>
+				Jumplink Generator
 			</h1>
 			<h2>Paste li section:</h2>
 			<textarea

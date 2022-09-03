@@ -1,4 +1,4 @@
-<h3><a href="https://www.bankrate.com/banking/reviews/bethpage-federal-credit-union/">Bethpage Federal Credit Union</a>: 2.50% APY, $50 minimum deposit</h3>
+const h3Data = `<h3><a href="https://www.bankrate.com/banking/reviews/bethpage-federal-credit-union/">Bethpage Federal Credit Union</a>: 2.50% APY, $50 minimum deposit</h3>
 Bethpage offers nine terms of CDs, ranging from three months to five years, and a 39-month <a href="https://www.bankrate.com/banking/cds/bump-up-cd/">bump-up CD</a>. Anyone who opens a $5 savings account can become a member.
 <ul>
  	<li>Membership restrictions: Bethpage FCU membership is open to anyone who opens a savings account with $5.</li>
@@ -53,4 +53,6 @@ First Technology FCU's CDs come in terms ranging from six months to five year. T
  	<li>Early withdrawal penalty: 180 days of simple dividends</li>
 </ul>
 <h3><a href="https://www.bankrate.com/banking/reviews/vystar-credit-union/">VyStar Credit Union</a>: 1.25% APY, $500 minimum deposit</h3>
-VyStar Credit Union, originally Jax Navy Federal Credit Union, offers 10 CD terms ranging from three months to five years. It also offers a one-year CD for Kid’s, VyTeen, Bravo and Achieve members only
+VyStar Credit Union, originally Jax Navy Federal Credit Union, offers 10 CD terms ranging from three months to five years. It also offers a one-year CD for Kid’s, VyTeen, Bravo and Achieve members only`
+
+export default h3Data
