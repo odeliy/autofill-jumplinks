@@ -94,12 +94,12 @@ function Generator() {
 			<h1 onClick={setupDemo}>
 				Jumplink Generator
 			</h1>
-			<h2>Paste li section:</h2>
+			<h2>Paste {`<li>`} section:</h2>
 			<textarea
 				value={anchors}
 				onChange={(e) => setAnchors(e.target.value)}
 			/>
-			<h2>Paste h3 section:</h2>
+			<h2>Paste {`<h3>`} section:</h2>
 			<textarea
 				value={headers}
 				onChange={(e) => setHeaders(e.target.value)}

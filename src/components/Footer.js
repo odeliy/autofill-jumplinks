@@ -3,12 +3,12 @@ import styled from 'styled-components'
 const StyledFooter = styled.div`
 	font-size: 1rem;
 	margin-top: 40px;
+	padding-inline: 1em;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 
 	a {
 		color: #10b981;
-		font-weight: bold;
 	}
 
 	a:hover {
@@ -26,7 +26,7 @@ function Footer() {
 					target='_blank'
 					rel='noreferrer'
 				>
-					github repo
+					github
 				</a>
 			</p>
 		</StyledFooter>
